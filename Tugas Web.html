@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REY RIZKY ANDIFA_F55123079</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 style="text-align: center">Registration Form</h2>
+
+    <form>
+      <table border="2">
+        <tr>
+          <th>Nama Depan :</th>
+          <td><input type="text" name="Nama_Depan" required /></td>
+        </tr>
+        <tr>
+          <th>Nama Belakang:</th>
+          <td><input type="text" name="Nama_Belakang" required /></td>
+        </tr>
+        <tr>
+          <th>Alamat:</th>
+          <td><input type="text" name="Alamat" required /></td>
+        </tr>
+        <tr>
+          <th>Tanggal Lahir:</th>
+          <td><input type="date" name="Tanggal_lahir" required /></td>
+        </tr>
+        <tr>
+          <th>Jenis Kelamin:</th>
+          <td>
+            <select name="Jenis Kelamin" required>
+              <option value="">Select</option>
+              <option value="Laki-laki">Laki-laki</option>
+              <option value="Perempuan">Perempuan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Username:</th>
+          <td><input type="text" name="username" required /></td>
+        </tr>
+        <tr>
+          <th>Password:</th>
+          <td><input type="password" name="password" required /></td>
+        </tr>
+        <tr>
+          <th>Upload Photo:</th>
+          <td><input type="file" name="photo" accept="image/*" required /></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Register" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
